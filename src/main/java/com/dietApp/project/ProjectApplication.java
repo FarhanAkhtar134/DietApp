@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @SpringBootApplication
+@ComponentScan(basePackages = "com.dietApp.project")
 public class ProjectApplication {
 
 	public static void main(String[] args) {
