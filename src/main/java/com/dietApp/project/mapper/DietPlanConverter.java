@@ -15,9 +15,12 @@ public class DietPlanConverter implements DietPlanMapper{
         }
 
         DietPlanView dietPlanView = new DietPlanView();
-        dietPlanView.setDietaryRquirment(dietPlan.getDietaryRequirment());
+        dietPlanView.setId(dietPlan.getId());
+        dietPlanView.setDietaryRequirment(dietPlan.getDietaryRequirment());
         dietPlanView.setFitnessGoal(dietPlan.getFitnessGoal());
         dietPlanView.setMonthlyBudget(dietPlan.getMonthlyBudget());
+        dietPlanView.setDietPlanId(dietPlan.getDietPlanId());
+
         return dietPlanView;
 
     }

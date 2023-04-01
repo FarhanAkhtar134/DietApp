@@ -17,5 +17,7 @@ public class DietPlan {
     private String dietaryRequirment;
     private Meal meal;
 
+    private String dietPlanId;
+
 
 }

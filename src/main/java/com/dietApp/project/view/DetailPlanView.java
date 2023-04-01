@@ -9,8 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Data
-public class DietPlanView {
-
+public class DetailPlanView {
     private String Id;
     private String fitnessGoal;
 
@@ -18,7 +17,5 @@ public class DietPlanView {
 
     private String dietaryRequirment;
 
-    private String dietPlanId;
-
-
+    private String meals;
 }
